@@ -1,0 +1,52 @@
+/* 基本スタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+}
+
+/* メインコンテンツ */
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #4a4a4a;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 5px;
+}
+
+/* コンテンツボックス */
+p, ul {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* リストスタイル */
+ul li {
+    margin: 8px 0;
+    padding-left: 10px;
+}
+
+/* 強調テキスト */
+strong {
+    color: #667eea;
+    font-size: 1.1em;
+}
