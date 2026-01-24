@@ -1,0 +1,35 @@
+# データファイルは絶対にGitに含めない
+data/input/*
+data/master/*
+data/output/*
+*.xlsx
+*.xls
+*.csv
+
+# ただしフォルダ構造は保持
+!data/input/.gitkeep
+!data/master/.gitkeep
+!data/output/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# PyCharm
+.idea/
+*.iml
+
+# ログ
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
